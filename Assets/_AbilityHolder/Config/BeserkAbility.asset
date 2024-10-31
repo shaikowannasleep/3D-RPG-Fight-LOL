@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757d9c375ac9352408914dc3ee5ae4cc, type: 3}
+  m_Name: BeserkAbility
+  m_EditorClassIdentifier: 
+  healthToSubtract: 35
+  additionalDamage: 30
+  additionalAttackSpeed: 1
+  skillActiveTime: 6
+  slowFactor: 0.5
+  slowDuration: 2

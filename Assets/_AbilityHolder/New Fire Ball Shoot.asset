@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2739e982d3a3f334da3d11d935ed4640, type: 3}
+  m_Name: New Fire Ball Shoot
+  m_EditorClassIdentifier: 
+  abilityImage: {fileID: 21300000, guid: 8ec5b52b09d90074a83d61c1334190f9, type: 3}
+  abilityCooldown: 0
+  abilityTextCoolDown: {fileID: 0}
+  activeKey: 119
+  CurrentAnimname: 
+  maxSkillDistance: 10
+  useIndicator: 1
+  fireballFXPrefab: {fileID: 237776701889672369, guid: 862b665baa8664f4093d642489e70cd1, type: 3}
+  damageAmount: 60

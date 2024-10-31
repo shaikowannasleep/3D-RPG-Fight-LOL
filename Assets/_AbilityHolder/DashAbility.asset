@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429ecbe8b3f0df84181f929ed07885cc, type: 3}
+  m_Name: DashAbility
+  m_EditorClassIdentifier: 
+  abilityImage: {fileID: 0}
+  abilityCooldown: 0
+  abilityTextCoolDown: {fileID: 0}
+  activeKey: 113
+  CurrentAnimname: 
+  dashDistance: 2
+  damageAreaPrefab: {fileID: 8919003035591351525, guid: 46f5c1ddb39f72248aa6e9e29262f01b, type: 3}
+  damageAmount: 25
