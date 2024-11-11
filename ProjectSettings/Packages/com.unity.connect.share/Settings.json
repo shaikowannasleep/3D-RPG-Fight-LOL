@@ -19,7 +19,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"D:/Work/Tokyha/3DNew/New folder/3D RPG Fight/WebGL Builds;;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"D:/Work/MyProject/New folder/3D-RPG-Fight-LOL/WebGL Builds;D:/Work/Tokyha/3DNew/New folder/3D RPG Fight/WebGL Builds;;;;;;;;\"}"
             }
         ]
     }

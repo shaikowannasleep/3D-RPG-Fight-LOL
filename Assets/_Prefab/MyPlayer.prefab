@@ -1233,7 +1233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &243484076186811461
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2088,9 +2088,9 @@ MonoBehaviour:
   - {fileID: 0}
   abilityKeys: 710000007700000065000000
   abilityCooldowns:
-  - 1.33
+  - 8
   - 1
-  - 6
+  - 2
   abilityCanvases:
   - {fileID: 1375239481453533881}
   - {fileID: 8491787053324765979}
@@ -2185,6 +2185,7 @@ MonoBehaviour:
   - {fileID: 3595106580607051872}
   abiltyRangedCanvas: {fileID: 8491787053324765979}
   abiltyRangedCanvasImage: {fileID: 8700733847700102547}
+  castLocation: {x: 0, y: 0, z: 0}
 --- !u!1 &5083023908380155050
 GameObject:
   m_ObjectHideFlags: 0

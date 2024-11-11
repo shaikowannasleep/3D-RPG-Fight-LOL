@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UniRx;
 using System.Threading.Tasks;
+using System;
 
 public class AbilityManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class AbilityManager : MonoBehaviour
     public List<Text> abilityTexts = new List<Text>();
     public List<KeyCode> abilityKeys = new List<KeyCode>();
     public List<float> abilityCooldowns = new List<float>();
+    public List<Button> abilityButtonKeys = new List<Button>();
     public List<Canvas> abilityCanvases = new List<Canvas>();
 
     private List<bool> isAbilityCooldown = new List<bool>();
@@ -27,6 +29,8 @@ public class AbilityManager : MonoBehaviour
             isAbilityCooldown.Add(false);
             currentCooldowns.Add(0f);
             abilityCanvases[i].enabled = false;
+            int index = i;
+            abilityButtonKeys[i].onClick.AddListener(() => ActivateSkillInGame(index));
             SetupAbilityInput(i);
         }
     }
@@ -61,7 +65,6 @@ public class AbilityManager : MonoBehaviour
         }
         return false; 
     }
-
 
 
     private void ActivateSkillInGame(int index)
